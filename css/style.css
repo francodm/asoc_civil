@@ -71,7 +71,11 @@ a:hover{
     width: 100%;
     background-size: 100%;
     margin-top: -4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .text_container{
     padding: 5em 0;
@@ -105,6 +109,10 @@ a:hover{
     padding: 5em;
 }
 
+#quienes_somos > .text{
+    line-height: 50px;
+}
+
 .title{
     font-family: 'Abel', sans-serif;
     font-size: 70px;
@@ -116,6 +124,7 @@ a:hover{
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    
 }
 
 #que_hacemos{
@@ -142,6 +151,7 @@ a:hover{
     border-bottom: black solid 2px;
     min-width: 60%;
     text-align: center;
+    padding-bottom: 0.5em;
     margin-bottom: 0.5em;
 
 }
@@ -255,41 +265,36 @@ button:hover{
     padding: 1em 0;
 }
 
-#contacto{
-    height: 80vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.form-container{
-    min-width: 50%;
-}
-form{
-    width: 100%;
+#quiero_donar{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    min-height: 30em;
+    justify-content: center;
 }
 
-input{
-  width: 100%;
-  padding: 10px 20px;
-  font-size: 15px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid rgb(153, 152, 152);
+.donar{
+    padding: 1em;
+    width: auto;
+    margin: 2em 1em;
 }
 
-textarea{
-    font-size: 18px;
-    box-sizing: border-box;
+#contacto{
+    min-height: 300px;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
-.form-container > .title_color {
-    border: none;
-    text-align: left;
+.contact_container > img{
+    width:2em;
+    margin: 0 1em;
 }
-
-form > button {
-    margin-top: 2em;
+.contact_container{
+    width: 20em;
+    display: flex;
+    align-items: center;
 }
