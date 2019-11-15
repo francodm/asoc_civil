@@ -67,10 +67,11 @@ a:hover{
 
 #hero{
     background-image: url('../img/imagen_principal.png');
-    height: 80vh;
+    min-height: 60vh;
     width: 100%;
     background-size: 100%;
-    margin-top: -4em;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,36 +190,17 @@ a:hover{
 .text > a:hover{
     color: orange;
 }
-#donaciones{
-    display: flex;
+.actividades_container{
+    margin: 2em 0;
+}
+.actividades_container > .text {
+    font-size: 18px;
 }
 
-#donaciones > img{
-    min-width: 60%;
-    padding: 2em;
-}
-
-.parallax{
-    padding: 3em;
-    background-image: url("../img/img_1.png");
-    height: 60%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-}
-
-#voluntariado{
-    padding: 5em 2em;
-    display: flex;
-    flex-direction: column;
-}
-
-#voluntariado > .text{
+.actividades_container > .title_color {
     font-size: 22px;
-    margin: 2em 7em;
-
+    border-bottom: none;
+    margin-top: 1em;
 }
 
 button{
