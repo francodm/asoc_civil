@@ -9,7 +9,7 @@ font-family: 'Abel', sans-serif; */
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
 }
 
 p{
@@ -93,13 +93,14 @@ a:hover{
 
 
 #quienes_somos > .container {
-    background: #4287f5;
+    background: #5c93eb;
     margin: 2em;
     color: white;
     padding: 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 1rem;
 }
 
 #quienes_somos{
@@ -110,19 +111,20 @@ a:hover{
     padding: 5em;
 }
 
-#quienes_somos > .text{
-    line-height: 50px;
+#quienes_somos > .container > .text{
+    line-height: 3rem;
+    font-size: 2rem;
 }
 
 .title{
     font-family: 'Abel', sans-serif;
-    font-size: 70px;
+    font-size: 5rem;
     font-weight: bolder;
     text-align: center;
 }
 
 .text{
-    font-size: 30px;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     
@@ -133,13 +135,23 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem;
+}
+
+#que_hacemos > .container{
+    border: solid black 0.05rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: white;
+    filter: drop-shadow(1rem 1.2rem 0.1rem #eceaea);
+
 }
 
 #que_hacemos > .text {
     font-size: 22px;
     margin: 1em;
 }
-
 
 .big_text{
     color: #2d65be;
@@ -148,59 +160,16 @@ a:hover{
 
 .title_color{
     color: #4287f5;
-    font-size: 50px;
-    border-bottom: black solid 2px;
+    font-size: 2rem;
     min-width: 60%;
     text-align: center;
     padding-bottom: 0.5em;
     margin-bottom: 0.5em;
-
 }
 
 .objetivo{
     font-size: 30px;
     margin: 3em;
-}
-
-#colectas > img {
-    height: 30em;
-    margin: 2em;
-}
-.section_text_container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: #aec9f5;
-    margin: 3em;
-    padding:3em 2em;
-    max-height: 20em;
-}
-
-.section_text_container > .text{
-    font-size: 15px;
-    margin: 0 3em;
-}
-
-.section_text_container > .title {
-    font-size: 35px;
-    padding-bottom: 1em;
-}
-
-
-.text > a:hover{
-    color: orange;
-}
-.actividades_container{
-    margin: 2em 0;
-}
-.actividades_container > .text {
-    font-size: 18px;
-}
-
-.actividades_container > .title_color {
-    font-size: 22px;
-    border-bottom: none;
-    margin-top: 1em;
 }
 
 button{
